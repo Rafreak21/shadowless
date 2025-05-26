@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>The Binding of Isaac: WotL</title>
+    <title>Shadowless</title>
     <script src="https://unpkg.com/@ruffle-rs/ruffle@latest"></script>
     <style>
         html, body {
@@ -33,7 +33,6 @@
 </head>
 <body>
     <div id="flash-container">
-        <!-- Ruffle player will be inserted here -->
     </div>
     <script>
         window.RufflePlayer = window.RufflePlayer || {};
@@ -42,7 +41,7 @@
             const container = document.getElementById("flash-container");
             const player = ruffle.createPlayer();
             container.appendChild(player);
-            player.load("tboi.swf");
+            player.load("shadowless.swf");
         });
     </script>
 </body>
